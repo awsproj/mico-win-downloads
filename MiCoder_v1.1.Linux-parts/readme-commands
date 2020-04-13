@@ -1,0 +1,18 @@
+
+
+command used to split the file:
+
+$ split -b80000000 ../MiCoder_v1.1.Linux.tar.gz
+
+
+command to recover the file: 
+
+$ cat xaa  xab > ../MiCoder_v1.1.Linux.tar.gz
+
+
+file size:
+
+$ ls -l ../MiCoder_v1.1.Linux.tar.gz
+-rw-r--r--+    140885174 Apr 12 15:00 ../MiCoder_v1.1.Linux.tar.gz
+
+
