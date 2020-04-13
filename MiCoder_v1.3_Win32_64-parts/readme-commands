@@ -1,0 +1,18 @@
+
+
+command used to split the file:
+
+ split -b48000000 ../MiCoder_v1.3_Win32_64.zip
+
+
+to recover the file, run: 
+
+ cat xaa xab xac xad xae xaf xag xah xai > ../MiCoder_v1.3_Win32_64.zip
+
+
+the file size:
+
+ $ ls -l ../MiCoder_v1.3_Win32_64.zip
+ -rw-r--r--+    413894755 Apr  7 15:04 ../MiCoder_v1.3_Win32_64.zip
+
+
