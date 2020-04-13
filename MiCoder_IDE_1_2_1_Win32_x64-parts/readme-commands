@@ -1,0 +1,17 @@
+
+command used to split the file: 
+
+ split -b48000000 ../MiCoder_IDE_1_2_1_Win32_x64.exe
+
+
+to recover the file, use this command: 
+
+ cat xaa  xab  xac  xad  xae  xaf  xag  xah  xai > ../MiCoder_IDE_1_2_1_Win32_x64.exe
+
+
+the file size: 
+
+ $ ls -l ../MiCoder_IDE_1_2_1_Win32_x64.exe
+ -rwxr-xr-x+    414879600 Apr  7 20:25 ../MiCoder_IDE_1_2_1_Win32_x64.exe
+
+
